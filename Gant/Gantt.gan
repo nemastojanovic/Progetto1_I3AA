@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-14" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.6" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-12" view-index="0" gantt-divider-location="585" resource-divider-location="300" version="2.8.6" locale="it">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="167" order="0"/>
-        <field id="tpd4" name="Data d'inizio" width="65" order="1"/>
-        <field id="tpd5" name="Data di fine" width="64" order="2"/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="312" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="158" order="1"/>
+        <field id="tpd5" name="Data di fine" width="111" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="210" order="0"/>
@@ -33,19 +33,38 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="attività_0" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="1" name="attività_1" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="2" name="attività_2" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="3" name="attività_3" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="4" name="attività_4" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="5" name="attività_5" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="6" name="attività_6" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="7" name="attività_7" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="8" name="attività_8" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="9" name="attività_9" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="10" name="attività_10" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="11" name="attività_11" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
-        <task id="12" name="attività_12" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+        <task id="0" name="Analisi" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+            <task id="30" name="Raccolta Informazioni" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="33" name="Analisi Dominio" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="34" name="Analisi Requisiti" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="35" name="Analisi costi+benefici" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="36" name="Documento di specifica" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="3" name="Progettazione" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+            <task id="37" name="Interfaccia grafica" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="39" name="Gantt" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="40" name="Analisi formato dati" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="4" name="Implementazione" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+            <task id="22" name="Creazione Macchina Virtuale" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+                <task id="41" name="Test VM" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="24" name="Installazione Apache e PHP" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+                <task id="43" name="Test Apache e PHP" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="26" name="Creazione Form dati" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="46" name="Stile sito" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            <task id="27" name="Controllo dati" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+                <task id="44" name="Test controllo dati" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="28" name="Sito funzionante" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+                <task id="45" name="Test performance" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="6" name="Consegna" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true">
+            <task id="13" name="Manutenzione" meeting="false" start="2018-09-14" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="14" name="Documentazione" meeting="false" start="2018-09-05" duration="41" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
