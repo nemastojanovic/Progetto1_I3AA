@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-17" view-index="0" gantt-divider-location="585" resource-divider-location="300" version="2.8.6" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-08-27" view-index="0" gantt-divider-location="585" resource-divider-location="300" version="2.8.6" locale="it">
     <description/>
-    <view zooming-state="default:3" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Nome" width="312" order="0"/>
         <field id="tpd4" name="Data d'inizio" width="158" order="1"/>
         <field id="tpd5" name="Data di fine" width="111" order="2"/>
@@ -45,23 +45,23 @@
             <task id="48" name="Interfaccia grafica" meeting="false" start="2018-09-28" duration="1" complete="0" expand="true"/>
             <task id="40" name="Analisi formato dati" meeting="false" start="2018-09-28" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="4" name="Implementazione" meeting="false" start="2018-10-03" duration="18" complete="0" expand="true">
-            <task id="22" name="Creazione Macchina Virtuale" meeting="false" start="2018-10-03" duration="3" complete="0" expand="true">
-                <task id="41" name="Test VM" color="#8cb6ce" meeting="true" start="2018-10-03" duration="0" complete="0" thirdDate="2018-10-03" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Implementazione" meeting="false" start="2018-10-03" duration="20" complete="0" expand="true">
+            <task id="22" name="Creazione Macchina Virtuale" meeting="false" start="2018-10-03" duration="1" complete="0" expand="true">
+                <task id="63" name="Test VM" meeting="false" start="2018-10-03" duration="1" complete="0" expand="true"/>
             </task>
             <task id="24" name="Installazione Apache e PHP" meeting="false" start="2018-10-03" duration="3" complete="0" expand="true">
                 <task id="43" name="Test Apache e PHP" meeting="false" start="2018-10-03" duration="3" complete="0" expand="true"/>
             </task>
             <task id="26" name="Creazione Form dati" meeting="false" start="2018-10-05" duration="1" complete="0" expand="true"/>
             <task id="46" name="Stile sito" meeting="false" start="2018-10-05" duration="1" complete="0" expand="true"/>
-            <task id="27" name="Controllo dati" meeting="false" start="2018-10-17" duration="3" complete="0" expand="true">
-                <task id="44" name="Test controllo dati" color="#8cb6ce" meeting="false" start="2018-10-17" duration="3" complete="0" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="Controllo dati" meeting="false" start="2018-10-17" duration="1" complete="0" expand="true">
+                <task id="44" name="Test controllo dati" color="#8cb6ce" meeting="false" start="2018-10-17" duration="1" complete="0" thirdDate="2018-10-17" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="54" name="Raccolta dati" meeting="false" start="2018-10-17" duration="3" complete="0" expand="true">
                 <task id="55" name="Test raccolta dati" meeting="false" start="2018-10-17" duration="3" complete="0" expand="true"/>
             </task>
-            <task id="28" name="Sito funzionante" meeting="false" start="2018-10-24" duration="3" complete="0" expand="true">
-                <task id="45" name="Test performance" meeting="false" start="2018-10-24" duration="3" complete="0" expand="true"/>
+            <task id="28" name="Sito funzionante" meeting="false" start="2018-10-26" duration="3" complete="0" expand="true">
+                <task id="45" name="Test performance" meeting="false" start="2018-10-26" duration="3" complete="0" expand="true"/>
             </task>
         </task>
         <task id="6" name="Consegna" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true">
