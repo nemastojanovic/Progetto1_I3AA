@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "description" content= "Form di inserimento">
+		<meta name = "keywords" content = "HTML/CSS">
+		<meta name = "author" content="Nemanja Stojanovic">
+		<meta charset = "UTF-8">
+		<meta http-equiv = "refresh" content = "60">
+		
+		<style>
+			input[type=text], select {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=date], select {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=number], select {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			input[type=submit] {
+				width: 50%;
+				background-color: #4CAF50;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+				background-color: #45a049;
+			}
+			
+
+
+			div {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+			}
+</style>
+
+	</head>
+	<body>
+		<h1 style="text-align:center;border-bottom: 3px solid #45a049;">Form di registrazione utenti</h1>
+		
+		<div>
+			<form action="/action_page.php">
+				<label for="fname">Nome</label>
+				<input type="text" id="fname" name="firstname" placeholder="">
+
+				<label for="lname">Cognome</label>
+				<input type="text" id="lname" name="lastname" placeholder="">
+				
+				<label for="ldata">Data di nascita</label>
+				<input type="date" id="dnascita" name="dnascita" placeholder="">
+				
+				<label for="lNoCivico">No. civico</label>
+				<input type="number" id="ncivivo" name="via" placeholder="">
+				
+				<label for="fname">Citta</label>
+				<input type="text" id="citta" name="citta" placeholder="">
+				
+				<label for="NAP">NAP</label>
+				<input type="number" id="NAP" name="NAP" placeholder="">
+				
+				<label for="ntelefono">No. telefono</label>
+				<input type="text" id="ntelefono" name="ntelefono" placeholder="">
+				
+				<label for="email">E-mail</label>
+				<input type="text" id="email" name="email" placeholder="">
+				
+				<label for="country">Sesso</label>
+				<select id="country" name="country">
+					<option value="Maschio">Maschio</option>
+					<option value="Femmina">Femmina</option>
+				</select>
+				
+				<label for="hobby">Hobby</label>
+				<input type="text" id="hobby" name="hobby" placeholder="">
+				
+				<label for="professione">Professione</label>
+				<input type="text" id="professione" name="professione" placeholder="">
+				
+				<input type="submit" value="Cancella">
+				<input type="submit" value="Invia">
+
+		</div>	
+  </form>
+</div>
+
+
+		
+		
+		
+		
+	</body>
+</html>
