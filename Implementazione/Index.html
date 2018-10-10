@@ -38,8 +38,8 @@
 				box-sizing: border-box;
 			}
 
-			input[type=submit] {
-				width: 50%;
+			input[type=submit], button {
+				width: 100%;
 				background-color: #4CAF50;
 				color: white;
 				padding: 14px 20px;
@@ -49,7 +49,7 @@
 				cursor: pointer;
 			}
 
-			input[type=submit]:hover {
+			input[type=submit], button {
 				background-color: #45a049;
 			}
 			
@@ -60,14 +60,23 @@
 				background-color: #f2f2f2;
 				padding: 20px;
 			}
-</style>
+		</style>
+		<script>
+			function myFunction() {
+				
+			var form = document.forms[0];
+			form.addEventListener("submit", function(e){
+				setTimeout(function(){form.reset()}, 0);
+			});
+			}
+</script>
 
 	</head>
 	<body>
 		<h1 style="text-align:center;border-bottom: 3px solid #45a049;">Form di registrazione utenti</h1>
 		
 		<div>
-			<form action="/action_page.php">
+			<form action="PaginaRiassunto.html">
 				<label for="fname">Nome</label>
 				<input type="text" id="fname" name="firstname" placeholder="">
 
@@ -94,8 +103,8 @@
 				
 				<label for="country">Sesso</label>
 				<select id="country" name="country">
-					<option value="Maschio">Maschio</option>
-					<option value="Femmina">Femmina</option>
+					<option value="Maschio" >Maschio</option>
+					<option value="Femmina" >Femmina</option>
 				</select>
 				
 				<label for="hobby">Hobby</label>
@@ -104,8 +113,9 @@
 				<label for="professione">Professione</label>
 				<input type="text" id="professione" name="professione" placeholder="">
 				
-				<input type="submit" value="Cancella">
+				<button type="button" onclick="myFunction()" style="background-color:#ff4d4d;">Cancella</button>
 				<input type="submit" value="Invia">
+				
 
 		</div>	
   </form>
