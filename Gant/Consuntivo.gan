@@ -46,27 +46,24 @@
             <task id="35" name="Analisi costi+benefici" meeting="false" start="2018-09-19" duration="1" complete="0" expand="true"/>
             <task id="36" name="Documento di specifica" meeting="false" start="2018-09-19" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="3" name="Progettazione" meeting="false" start="2018-09-21" duration="6" complete="0" expand="true">
-            <depend id="4" type="2" difference="0" hardness="Strong"/>
-            <task id="39" name="Gantt" meeting="false" start="2018-09-21" duration="6" complete="0" expand="true"/>
-            <task id="48" name="Interfaccia grafica" meeting="false" start="2018-09-28" duration="1" complete="0" expand="true"/>
-            <task id="40" name="Analisi formato dati" meeting="false" start="2018-09-28" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Progettazione" meeting="false" start="2018-09-26" duration="23" complete="0" expand="true">
+            <task id="39" name="Gantt" meeting="false" start="2018-09-26" duration="23" complete="0" expand="true"/>
+            <task id="48" name="Interfaccia grafica" meeting="false" start="2018-09-28" duration="4" complete="0" expand="true"/>
+            <task id="40" name="Analisi formato dati" meeting="false" start="2018-10-05" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="4" name="Implementazione" meeting="false" start="2018-10-03" duration="20" complete="0" expand="true">
-            <task id="22" name="Creazione Macchina Virtuale" meeting="false" start="2018-10-03" duration="1" complete="0" expand="true">
-                <depend id="24" type="2" difference="0" hardness="Strong"/>
+        <task id="78" name="Implementazione" meeting="false" start="2018-10-10" duration="23" complete="0" expand="true">
+            <task id="79" name="Creazione Macchina Vrtuale" meeting="false" start="2018-10-10" duration="1" complete="0" expand="true"/>
+            <task id="80" name="Installazione Apache e PHP" meeting="false" start="2018-10-10" duration="1" complete="0" expand="true"/>
+            <task id="81" name="Creazione Form dati" meeting="false" start="2018-10-12" duration="11" complete="0" expand="true"/>
+            <task id="82" name="Stile sito" meeting="false" start="2018-10-12" duration="4" complete="0" expand="true"/>
+            <task id="83" name="Controllo dati" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true">
+                <task id="87" name="Test controllo dati" meeting="false" start="2018-10-26" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="24" name="Installazione Apache e PHP" color="#8cb6ce" meeting="false" start="2018-10-04" duration="3" complete="0" thirdDate="2018-10-03" thirdDate-constraint="0" expand="true"/>
-            <task id="26" name="Creazione Form dati" meeting="false" start="2018-10-05" duration="1" complete="0" expand="true"/>
-            <task id="46" name="Stile sito" meeting="false" start="2018-10-05" duration="1" complete="0" expand="true"/>
-            <task id="27" name="Controllo dati" meeting="false" start="2018-10-17" duration="1" complete="0" expand="true">
-                <task id="44" name="Test controllo dati" color="#8cb6ce" meeting="false" start="2018-10-17" duration="1" complete="0" thirdDate="2018-10-17" thirdDate-constraint="0" expand="true"/>
+            <task id="84" name="Raccolta dati" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true">
+                <task id="86" name="Test raccolta dati" meeting="false" start="2018-11-07" duration="1" complete="0" expand="true"/>
             </task>
-            <task id="54" name="Raccolta dati" meeting="false" start="2018-10-17" duration="3" complete="0" expand="true">
-                <task id="55" name="Test raccolta dati" meeting="false" start="2018-10-17" duration="3" complete="0" expand="true"/>
-            </task>
-            <task id="28" name="Sito funzionante" meeting="false" start="2018-10-26" duration="3" complete="0" expand="true">
-                <task id="45" name="Test performance" meeting="false" start="2018-10-26" duration="3" complete="0" expand="true"/>
+            <task id="85" name="Sito funzionante" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true">
+                <task id="88" name="Test performance" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true"/>
             </task>
         </task>
         <task id="6" name="Consegna" meeting="false" start="2018-11-09" duration="1" complete="0" expand="true">
